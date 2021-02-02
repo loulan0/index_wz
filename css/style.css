@@ -1,7 +1,7 @@
 body {
     font-size: 18px;
     color: #6c767d;
-    background-color: #c07aa3;
+    background-color: #000000;
     background-image: url(../beijing.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@ body {
     height: 100%;
     min-height: 800px;
 }
+
 h1 {
     font-size: 36px;
     margin-bottom: .5em;
@@ -45,6 +46,7 @@ h4 {
     /* top: 50%; */
     transform: translateY(20px);
 }
+
 
 /* .my-card {
     box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
@@ -203,5 +205,15 @@ footer p {
 #aplayer {
     z-index: 20000000;
 }
-.aplayer.aplayer-fixed
-{position:fixed;bottom:0;left:0;right:0;margin:0;z-index:99;overflow:visible;max-width:400px;box-shadow:none;}
+
+.aplayer.aplayer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 99;
+    overflow: visible;
+    max-width: 400px;
+    box-shadow: none;
+}
