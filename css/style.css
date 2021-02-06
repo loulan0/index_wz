@@ -1,15 +1,14 @@
 body {
     font-size: 18px;
     color: #6c767d;
-    background-color: #000000;
+    background-color: #c07aa3;
     background-image: url(../beijing.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1500px;
+    height: 100%;
     min-height: 800px;
 }
-
 h1 {
     font-size: 36px;
     margin-bottom: .5em;
@@ -46,7 +45,6 @@ h4 {
     /* top: 50%; */
     transform: translateY(20px);
 }
-
 
 /* .my-card {
     box-shadow: 0px 5px 15px 5px rgb(203, 221, 232);
@@ -118,8 +116,8 @@ strike {
 
 .photo-bg {
     /* background-image: url(assets/background.jpg); */
-    background-image: url(../dongman.jpg);
-    /* background-position: center; */
+    background-image: url(https://tva1.sinaimg.cn/large/0072Vf1pgy1foxk456b0fj31hc0u0dxu.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -205,15 +203,5 @@ footer p {
 #aplayer {
     z-index: 20000000;
 }
-
-.aplayer.aplayer-fixed {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    z-index: 99;
-    overflow: visible;
-    max-width: 400px;
-    box-shadow: none;
-}
+.aplayer.aplayer-fixed
+{position:fixed;bottom:0;left:0;right:0;margin:0;z-index:99;overflow:visible;max-width:400px;box-shadow:none;}
